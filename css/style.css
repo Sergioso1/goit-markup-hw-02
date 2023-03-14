@@ -1,12 +1,47 @@
-/* body */
-body{
-Width 1440px;
-Height 2592px ;
-Top -1169px ;
-Left 370px  ;
-background: #FFFFFF;
+:root {
+  --regular-color: #434455;
+  --second-color: #2e2f42;
+  --hero-color: #ffffff;
+  --footer-color: #f4f4fd;
+  --button-color: #4d5ae5;
 }
-
+body {
+  color: var(--regular-color);
+}
+.title {
+  color: var(--second-color);
+}
 /* header */
-.header {
+.header-item {
+  color: var(--second-color);
+}
+.header-logo {
+  color: var(--second-color);
+}
+/* address */
+.address {
+  color: var(--regular-color);
+}
+/* hero */
+.hero-title {
+  color: var(--hero-color);
+}
+/* footer */
+footer {
+  background-color: var(--second-color);
+}
+.footer-text {
+  color: var(--footer-color);
+}
+/* portfolio */
+/* body */
+.portfolio-body {
+  color: var(--second-color);
+}
+/* main */
+.text {
+  color: var(--regular-color);
+}
+.portfolio-button {
+  color: var(--button-color);
 }

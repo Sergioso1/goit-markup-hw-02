@@ -77,7 +77,12 @@ body {
   color: var(--regular-color);
   letter-spacing: 0.02em;
 }
+.address-item{
+  color: var(--regular-color);
+  letter-spacing: 0.02em;
+}
 .address-list{
+  font-style: normal;
   letter-spacing: 0.02em;
   color: var(--regular-color);
 }
@@ -90,35 +95,71 @@ body {
 /* main */
 
 /* hero */
+.hero{
+  background-color: #2e2f42;
+}
 .hero-title {
   color: var(--hero-color);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   background: #4d5ae5;
   letter-spacing: 0.04em;
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff; 
+}
+.hero-button:focus{
+  color: #404BBF
+}
+.hero-button:hover{
+  color: #404BBF
 }
 /* description */
 .description-title {
   font-weight: 500; 
   font-size: 20px; 
   line-height: 1.2;
+  letter-spacing: 0.02em
+
 }
 /* works */
 .title-work {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--second-color);
 }
 /* team */
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-
+.team{
+  background-color: #F4F4FD;
+}
+.team-list{
+  background-color: #FFFFFF;
+}
+.name-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  
+}
 /* footer */
 footer {
   background-color: var(--second-color);
@@ -137,6 +178,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em
 }
 .portfolio-button {
   color: var(--button-color);

@@ -7,7 +7,7 @@
 }
 body {
   color: var(--regular-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
 font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -24,14 +24,15 @@ text-decoration: none ;
 }
 /* logo */
 .web{
-  color: #4D5AE5; 
+color:var(--button-color); 
 }
 .header-logo{
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.2;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 .footer-logo{
   color: #F4F4FD;
@@ -39,7 +40,6 @@ line-height: 1.2;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.2;
 }
 
 /* header */
@@ -52,6 +52,7 @@ line-height: 1.2;
 /* address */
 .address {
   color: var(--regular-color);
+  letter-spacing: 0.02em;
 }
 /* main */
 

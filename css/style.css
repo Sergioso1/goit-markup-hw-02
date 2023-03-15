@@ -18,10 +18,17 @@ body {
   color: var(--second-color);
 }
 .list{
-  list-style: none
+  list-style: none;
 }
 .link {
   text-decoration: none;
+  font-style: normal;
+}
+.link:hover{
+  color: #404bbf;
+}
+.link:focus{
+  color: #404bbf;
 }
 .button {
   cursor: pointer;
@@ -55,16 +62,30 @@ body {
 }
 
 /* header */
+.header-list{
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
 .header-item {
   color: var(--second-color);
 }
-.header-logo {
-  color: var(--second-color);
-}
+
 /* address */
 .address {
   color: var(--regular-color);
   letter-spacing: 0.02em;
+}
+.address-list{
+  letter-spacing: 0.02em;
+  color: var(--regular-color);
+}
+.addres-list :hover {
+  color: #404bbf;
+}
+.address-list :focus{
+  color: #404bbf 
 }
 /* main */
 

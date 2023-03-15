@@ -17,6 +17,9 @@ body {
 .title {
   color: var(--second-color);
 }
+.list{
+  list-style: none
+}
 .link {
   text-decoration: none;
 }
@@ -24,24 +27,29 @@ body {
   cursor: pointer;
 }
 /* logo */
-.web {
-  color: var(--button-color);
+.header-studio {
+  color: var(--second-color);
+}
+.footter-studio{
+  color: var(--footer-color);
 }
 
 .header-logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: Raleway,sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  color: var(--button-color);
 }
 .footer-logo {
-  color: var(--footer-color) font-family "Raleway";
+  font-family: Raleway,sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  color: var(--button-color);
+
 }
 
 /* header */

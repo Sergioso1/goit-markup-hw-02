@@ -8,8 +8,8 @@
 body {
   color: var(--regular-color);
   font-family: "Roboto";
-  font-family:sans-serif;
-font-style: normal;
+  font-family: sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1, 2;
@@ -18,32 +18,31 @@ font-style: normal;
 .title {
   color: var(--second-color);
 }
-.link{
-text-decoration: none ;
+.link {
+  text-decoration: none;
 }
-.button{
+.button {
   cursor: pointer;
 }
 /* logo */
-.web{
-color:var(--button-color); 
+.web {
+  color: var(--button-color);
 }
 
-.header-logo{
-font-family: "Raleway";
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
-.footer-logo{
-  color:var(--footer-color)
+.header-logo {
   font-family: "Raleway";
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  color: var(--footer-color) font-family "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 /* header */
@@ -64,30 +63,30 @@ letter-spacing: 0.03em;
 .hero-title {
   color: var(--hero-color);
   font-weight: 700;
-font-size: 56px;
-line-height: 1.1;
+  font-size: 56px;
+  line-height: 1.1;
 }
-.hero-button{
-  background: #4D5AE5;
+.hero-button {
+  background: #4d5ae5;
   letter-spacing: 0.04em;
 }
 /* description */
-.description-title{
-  font-weight: 500
-  font-size: 20px
-  line-height: 1.2
+.description-title {
+  font-weight: 500; 
+  font-size: 20px; 
+  line-height: 1.2;
 }
 /* works */
-.title-work{
+.title-work {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
+  font-size: 36px;
+  line-height: 1.1;
 }
 /* team */
-.team-title{
+.team-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
+  font-size: 36px;
+  line-height: 1.1;
 }
 
 /* footer */
@@ -112,4 +111,16 @@ footer {
 .portfolio-button {
   color: var(--button-color);
   letter-spacing: 0.04em;
+  font-size: 16px;
+  background-color: var(--footer-color);
+  line-height: 1.5;
+  font-weight: 500;  
+}
+.portfolio-button :hover{
+  color: #FFFFFF;
+  background-color: #404BBF
+}
+.portfolio-button :focus{
+  color: #FFFFFF;
+  background-color: #404BBF
 }

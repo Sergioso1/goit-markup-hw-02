@@ -41,6 +41,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--button-color);
+  text-transform: uppercase;
 }
 .footer-logo {
   font-family: Raleway,sans-serif;
@@ -49,6 +50,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--button-color);
+  text-transform: uppercase;
 
 }
 

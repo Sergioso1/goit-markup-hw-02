@@ -85,6 +85,7 @@ color: var(--regular-color);
 }
 .address-list{
   letter-spacing: 0.02em;
+  color: var(--regular-color);
 }
 .addres-list :hover {
   color: #404bbf;
@@ -168,6 +169,9 @@ color: var(--regular-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
 color: var(--second-color);
+}
+.team-item{
+  color: var(--regular-color);
 }
 /* footer */
 footer {

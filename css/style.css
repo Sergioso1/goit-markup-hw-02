@@ -182,7 +182,7 @@ footer {
 /* portfolio */
 /* body */
 .portfolio-body {
-  color: var(--second-color);
+  color:var(--regular-color)
 }
 /* main */
 .text {

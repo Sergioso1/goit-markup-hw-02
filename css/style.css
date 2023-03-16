@@ -160,9 +160,7 @@ color: var(--regular-color);
 .team{
   background-color:  #F4F4FD
 }
-.team-list{
-  background-color: #FFFFFF;
-}
+
 .name-title{
   font-weight: 500;
   font-size: 20px;
@@ -172,6 +170,7 @@ color: var(--second-color);
 }
 .team-item{
   color: var(--regular-color);
+  background-color: #FFFFFF;
 }
 /* footer */
 footer {
